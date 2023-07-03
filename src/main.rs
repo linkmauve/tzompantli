@@ -1,3 +1,5 @@
+#![feature(portable_simd)]
+
 use std::mem;
 use std::num::NonZeroU32;
 use std::ops::{Div, Mul};
